@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -19,89 +18,75 @@
 
   <body>
     <header class="site-header">
-      <!-- TOPBAR -->
       <div class="topbar">
         <div class="container topbar__row">
-          <!-- Desktop brand -->
           <a class="brand brand--desktop" href="/" aria-label="TentSib">
             <img class="brand__logo" src="./img/logo.svg" alt="TentSib" />
           </a>
 
-          <div class="topbar__right">
-            <a class="toplink toplink--mail" href="mailto:zakaz@tentsib.ru">
-              <span class="ico" aria-hidden="true">
-                <!-- mail -->
-                <svg viewBox="0 0 24 24">
-                  <path
-                    d="M4 6h16v12H4V6Zm2 2 6 5 6-5"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-              <span>zakaz@tentsib.ru</span>
-            </a>
+          <a class="toplink toplink--mail" href="mailto:zakaz@tentsib.ru">
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M4 6h16v12H4V6Zm2 2 6 5 6-5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span>zakaz@tentsib.ru</span>
+          </a>
 
-            <a class="toplink" href="tel:88002222498">
-              <span class="ico" aria-hidden="true">
-                <!-- phone -->
-                <svg viewBox="0 0 24 24">
-                  <path
-                    d="M22 16.9v3a2 2 0 0 1-2.2 2A19.9 19.9 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L9.9 10.6a16 16 0 0 0 3.5 3.5l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6A2 2 0 0 1 22 16.9Z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-              <span>8 800 222-24-98</span>
-            </a>
+          <a class="toplink toplink--phone" href="tel:88002222498">
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M22 16.9v3a2 2 0 0 1-2.2 2A19.9 19.9 0 0 1 3 5.2 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L9.9 10.6a16 16 0 0 0 3.5 3.5l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6A2 2 0 0 1 22 16.9Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span>8 800 222-24-98</span>
+          </a>
 
-            <button
-              class="toplink toplink--btn"
-              type="button"
-              aria-label="Город"
-            >
-              <span class="ico" aria-hidden="true">
-                <!-- pin -->
-                <svg viewBox="0 0 24 24">
-                  <path
-                    d="M12 21s7-4.4 7-11a7 7 0 0 0-14 0c0 6.6 7 11 7 11Z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                  <path
-                    d="M12 10.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                </svg>
-              </span>
-              <span>Москва</span>
-              <span class="chev" aria-hidden="true">▾</span>
-            </button>
-          </div>
+          <button class="toplink toplink--btn" type="button" aria-label="Город">
+            <span class="ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 21s7-4.4 7-11a7 7 0 0 0-14 0c0 6.6 7 11 7 11Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M12 10.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </span>
+            <span>Москва</span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
         </div>
       </div>
 
-      <!-- NAVLINE -->
       <div class="navline">
         <div class="container navline__row">
-          <!-- Mobile brand (появляется на мобилке) -->
           <a class="brand brand--mobile" href="/" aria-label="TentSib">
             <img class="brand__logo" src="./img/logo.svg" alt="TentSib" />
           </a>
 
           <button class="cat-btn" type="button" aria-label="Категории">
             <span class="ico" aria-hidden="true">
-              <!-- list -->
               <svg viewBox="0 0 24 24">
                 <path
                   d="M4 6h16M4 12h16M4 18h16"
@@ -126,7 +111,6 @@
           <div class="navtools">
             <button class="search-btn" type="button" aria-label="Поиск">
               <span class="ico" aria-hidden="true">
-                <!-- search -->
                 <svg viewBox="0 0 24 24">
                   <path
                     d="M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z"
@@ -146,36 +130,6 @@
               <span class="search-btn__text">Поиск</span>
             </button>
 
-            <a class="cart" href="#" aria-label="Корзина">
-              <span class="cart__ico" aria-hidden="true">
-                <!-- cart -->
-                <svg viewBox="0 0 24 24">
-                  <path
-                    d="M6 6h15l-2 9H7L6 6Z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M6 6 5 3H2"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                  />
-                  <path
-                    d="M9 21a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm8 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                </svg>
-                <span class="cart__badge">2</span>
-              </span>
-              <span class="cart__price">15 000₽</span>
-            </a>
-
             <button class="burger-btn" type="button" aria-label="Меню">
               <span class="ico" aria-hidden="true">
                 <svg viewBox="0 0 24 24">
@@ -190,18 +144,46 @@
               </span>
             </button>
           </div>
+
+          <a class="cart" href="#" aria-label="Корзина">
+            <span class="cart__ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M6 6h15l-2 9H7L6 6Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6 6 5 3H2"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M9 21a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm8 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+              <span class="cart__badge">2</span>
+            </span>
+            <span class="cart__price">15 000₽</span>
+          </a>
         </div>
       </div>
 
-      <!-- BREADCRUMBS -->
       <div class="crumbs" aria-label="Навигация">
         <div class="container crumbs__row">
           <a class="crumbs__link" href="#">Главная</a>
-          <span class="crumbs__sep">—</span>
+          <span class="crumbs__sep">→</span>
           <a class="crumbs__link" href="#">Блог</a>
-          <span class="crumbs__sep">—</span>
+          <span class="crumbs__sep">→</span>
           <span class="crumbs__current"
-            >Технология изготовления палаток сварщиков - материалы, армирование,
+            >Технология изготовления палаток сварщиков — материалы, армирование,
             размеры</span
           >
         </div>
@@ -209,18 +191,15 @@
     </header>
 
     <main class="wrap">
-      <!-- TITLE -->
       <h1 class="page-title">
         <span class="accent">Технология изготовления</span>
         палаток сварщиков — материалы, армирование, размеры
       </h1>
 
-      <!-- B2B BANNER -->
       <section class="b2b-banner" aria-label="B2B баннер">
         <div class="b2b-banner__left-col">
           <div class="b2b-banner__content">
             <h2 class="b2b-banner__title">ПОКУПАЙТЕ КАК ЮРЛИЦО</h2>
-
             <ul class="b2b-banner__list">
               <li>Оптовая система скидок</li>
               <li>Возврат НДС</li>
@@ -230,10 +209,8 @@
               <li>ЭДО</li>
             </ul>
           </div>
-
           <a class="phone-pill" href="tel:88002222498">8 800 222-24-98</a>
         </div>
-
         <div class="b2b-banner__right">
           <img
             src="./img/Frame 1948765156.svg"
@@ -243,16 +220,13 @@
         </div>
       </section>
 
-      <!-- META ROW -->
       <div class="post-meta" aria-label="Мета-информация статьи">
         <div class="post-meta__left">
           <span class="post-meta__date">24 июня 2025</span>
           <span class="post-meta__sep">|</span>
           <span class="post-meta__time">7 минут чтения</span>
         </div>
-
         <div class="post-meta__spacer" aria-hidden="true"></div>
-
         <div class="post-meta__right">
           <div class="rating" aria-label="Рейтинг 5 из 5">
             <span class="star star--on">★</span>
@@ -261,24 +235,23 @@
             <span class="star star--on">★</span>
             <span class="star star--on">★</span>
           </div>
-
           <div class="meta-actions" aria-label="Действия">
             <button class="meta-icon" type="button" aria-label="Переслать">
-              <img src="./img/ShareFat.png" alt="" />
+              <img src="./img/ShareFat.png" alt="" loading="lazy" />
             </button>
-
-            <button class="meta-icon" type="button" aria-label="Поделиться">
-              <img src="./img/ShareNetwork.png" alt="" />
+            <button
+              class="meta-icon"
+              type="button"
+              aria-label="Поделиться"
+            >
+              <img src="./img/ShareNetwork.png" alt="" loading="lazy" />
             </button>
           </div>
         </div>
       </div>
 
-      <!-- CONTENT GRID: MAIN (770) + ASIDE (370) -->
       <div class="content">
-        <!-- MAIN ARTICLE -->
         <article class="content__main">
-          <!-- TOC -->
           <nav class="toc" aria-label="Содержание">
             <h2 class="toc__title">СОДЕРЖАНИЕ</h2>
             <ul class="toc__list">
@@ -291,7 +264,37 @@
             </ul>
           </nav>
 
-          <!-- INTRO -->
+          <section class="discount-card discount-card--inline" aria-label="Заявка на скидку">
+            <h3 class="discount-card__title">
+              Оставьте заявку сейчас<br />
+              и получите скидку!
+            </h3>
+            <p class="discount-card__subtitle">
+              Сделаем скидку 5% на любой товар<br />
+              из нашего каталога.
+            </p>
+            <form class="discount-form" action="#" method="post">
+              <input
+                class="discount-input"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                required
+              />
+              <label class="discount-check">
+                <input class="discount-check__input" type="checkbox" required />
+                <span class="discount-check__box" aria-hidden="true"></span>
+                <span class="discount-check__text">
+                  Я согласен
+                  <a class="discount-link" href="#">на обработку персональных данных</a>
+                  и принимаю условия
+                  <a class="discount-link" href="#">Политики конфиденциальности</a>.
+                </span>
+              </label>
+              <button class="discount-btn" type="submit">Заказать обратный звонок</button>
+            </form>
+          </section>
+
           <p class="article-intro">
             <strong>Палатки для сварщиков</strong> - специализированные укрытия.
             Они нужны для создания защищенного рабочего пространства при
@@ -302,31 +305,23 @@
             Рассмотрим технологию изготовления этой конструкции и их размеры.
           </p>
 
-          <!-- CTA 1 -->
           <section class="cta-card" aria-label="Форма консультации">
-            <h3 class="cta-card__title">
-              ОСТАВЬТЕ ЗАЯВКУ НА БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ!
-            </h3>
-
+            <h3 class="cta-card__title">ОСТАВЬТЕ ЗАЯВКУ НА БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ!</h3>
             <p class="cta-card__text">
               Наши менеджеры свяжутся с вами в ближайшее время, ответят на все
               вопросы и помогут подобрать оптимальное решение.
             </p>
-
             <form class="cta-form" action="#" method="post">
               <label class="cta-check">
                 <input class="cta-check__input" type="checkbox" required />
                 <span class="cta-check__box" aria-hidden="true"></span>
                 <span class="cta-check__text">
                   Я согласен
-                  <a href="#" class="cta-link"
-                    >на обработку персональных данных</a
-                  >
+                  <a href="#" class="cta-link">на обработку персональных данных</a>
                   и принимаю условия
                   <a href="#" class="cta-link">Политики конфиденциальности</a>.
                 </span>
               </label>
-
               <div class="cta-form__row">
                 <input
                   class="cta-input"
@@ -335,17 +330,13 @@
                   placeholder="Телефон"
                   required
                 />
-                <button class="cta-btn" type="submit">
-                  Заказать обратный звонок
-                </button>
+                <button class="cta-btn" type="submit">Заказать обратный звонок</button>
               </div>
             </form>
           </section>
 
-          <!-- WHY -->
           <section class="article-section" id="why">
             <h2 class="article-h2">Для чего нужны палатки сварщиков</h2>
-
             <div class="article-text">
               <p>
                 Они защищают рабочее место при сварочных, газорезательных,
@@ -353,7 +344,6 @@
                 замкнутое пространство. Оно защищает сварщика и оборудование от
                 дождя, ветра. Укрывает от пыли, палящих солнечных лучей.
               </p>
-
               <p>
                 Укрытие обеспечивают безопасность. Оно не позволяет разлетаться
                 искрам, брызгам расплавленного металла за пределы рабочей зоны.
@@ -361,7 +351,6 @@
                 в городской застройке.
               </p>
             </div>
-
             <div class="article-images" aria-label="Фотографии раздела">
               <img
                 class="article-img"
@@ -378,12 +367,16 @@
             </div>
           </section>
 
-          <!-- MATERIALS -->
+          <img
+            class="article-banner"
+            src="./img/banner-1.png"
+            alt="Акционный баннер"
+            loading="lazy"
+          />
+
           <section class="materials" id="materials">
             <h2 class="materials__title">Материалы</h2>
-
             <p class="materials__lead">Палатки сварщика делают из:</p>
-
             <ol class="materials__list">
               <li class="materials__item">
                 ПВХ-ткани (армированная поливинилхлоридом). Она обеспечивает
@@ -419,10 +412,15 @@
             </ol>
           </section>
 
-          <!-- REINFORCE -->
+          <img
+            class="article-banner"
+            src="./img/banner-2.png"
+            alt="Акционный баннер"
+            loading="lazy"
+          />
+
           <section class="article-section" id="reinforce">
             <h2 class="article-h2">Армирование палаток сварщиков</h2>
-
             <div class="article-text">
               <p>
                 Оно нужно для повышения прочности укрывного материала.
@@ -439,17 +437,17 @@
             </div>
           </section>
 
-          <!-- SIZES -->
+          <img
+            class="article-banner"
+            src="./img/banner-3.png"
+            alt="Акционный баннер"
+            loading="lazy"
+          />
+
           <section class="article-section" id="sizes">
             <h2 class="article-h2">Размеры палаток сварщиков</h2>
             <p class="article-lead">Вот таблица с типичными размерами:</p>
-
-            <div
-              class="table-wrap"
-              role="region"
-              aria-label="Таблица размеров"
-              tabindex="0"
-            >
+            <div class="table-wrap" role="region" aria-label="Таблица размеров" tabindex="0">
               <table class="sizes-table">
                 <thead>
                   <tr>
@@ -460,7 +458,6 @@
                     <th>Особенности</th>
                   </tr>
                 </thead>
-
                 <tbody>
                   <tr>
                     <td>Мобильная</td>
@@ -495,33 +492,23 @@
             </div>
           </section>
 
-          <!-- CTA 2 (CALL) -->
-          <section
-            class="cta-card cta-card--call"
-            id="call"
-            aria-label="Форма заказа звонка"
-          >
+          <section class="cta-card cta-card--call" id="call" aria-label="Форма заказа звонка">
             <h3 class="cta-card__title">ЗАКАЖИТЕ ЗВОНОК</h3>
-
             <p class="cta-card__text">
               Наш специалист свяжется с вами в ближайшее время и поможет с
               консультацией и выбором решения.
             </p>
-
             <form class="cta-form" action="#" method="post">
               <label class="cta-check">
                 <input class="cta-check__input" type="checkbox" required />
                 <span class="cta-check__box" aria-hidden="true"></span>
                 <span class="cta-check__text">
                   Я согласен
-                  <a class="cta-link" href="#"
-                    >на обработку персональных данных</a
-                  >
+                  <a class="cta-link" href="#">на обработку персональных данных</a>
                   и принимаю условия
                   <a class="cta-link" href="#">Политики конфиденциальности</a>.
                 </span>
               </label>
-
               <div class="cta-form__row">
                 <input
                   class="cta-input"
@@ -530,19 +517,14 @@
                   placeholder="Телефон"
                   required
                 />
-                <button class="cta-btn" type="submit">
-                  Заказать обратный звонок
-                </button>
+                <button class="cta-btn" type="submit">Заказать обратный звонок</button>
               </div>
             </form>
           </section>
 
-          <!-- TIPS -->
           <section class="article-section" id="tips">
             <h2 class="article-h2">Советы по выбору палатки сварщиков</h2>
-
             <p class="article-lead">Дадим дополнительные рекомендации:</p>
-
             <ul class="tips-list">
               <li>
                 учитывайте, где и как долго планируется использовать палатку
@@ -578,7 +560,6 @@
               </li>
               <li>изучите мнения других покупателей перед покупкой.</li>
             </ul>
-
             <div class="article-text">
               <p>
                 Покупать палатки сварщиков лучше у производителя. В компании
@@ -594,176 +575,115 @@
             </div>
           </section>
 
-          <!-- READ MORE -->
           <section class="article-section" id="read">
             <h2 class="article-h2">Рекомендуем почитать</h2>
-
             <ul class="read-list">
               <li>
-                <a href="#"
-                  >Использование брезентовых изделий для защиты стройки зимой</a
-                >
+                <a href="#">Использование брезентовых изделий для защиты стройки зимой</a>
               </li>
               <li>
                 <a href="#">Какой брезент можно использовать для сварки</a>
               </li>
               <li>
-                <a href="#"
-                  >Виды и преимущества брезентовых костюмов для сварщиков</a
-                >
+                <a href="#">Виды и преимущества брезентовых костюмов для сварщиков</a>
               </li>
             </ul>
           </section>
 
           <hr class="article-divider" />
 
-          <!-- AUTHOR -->
           <section class="author" aria-label="Автор">
             <h2 class="author__title">Автор</h2>
-
             <p class="author__name">Горская Людмила Викторовна</p>
             <p class="author__meta">Член Союза журналистов России</p>
             <p class="author__meta">Стаж работы 12 лет</p>
           </section>
 
-          <!-- RECOMMENDED PRODUCTS -->
           <section class="products" aria-label="Рекомендуемые товары">
             <div class="products__head">
               <h2 class="products__title">Рекомендуемые товары</h2>
-
               <div class="products__nav" aria-label="Навигация по товарам">
-                <button
-                  class="products__arrow"
-                  type="button"
-                  aria-label="Назад"
-                >
-                  ←
-                </button>
-                <button
-                  class="products__arrow"
-                  type="button"
-                  aria-label="Вперёд"
-                >
-                  →
-                </button>
+                <button class="products__arrow" type="button" aria-label="Назад">←</button>
+                <button class="products__arrow" type="button" aria-label="Вперёд">→</button>
               </div>
             </div>
-
             <div class="products__grid">
-              <!-- CARD 1 -->
               <article class="product-card">
                 <a class="product-card__img" href="#">
-                  <img
-                    src="./img/image.svg"
-                    alt="Палатка сварщика 2,5х2,5м"
-                    loading="lazy"
-                  />
+                  <img src="./img/image.svg" alt="Палатка сварщика 2,5х2,5м" loading="lazy" />
                 </a>
-
-                <h3 class="product-card__title">
-                  <a href="#">Палатка сварщика 2,5х2,5м</a>
-                </h3>
-
-                <div class="product-card__price">36 500 ₽</div>
-
-                <div class="product-card__actions">
-                  <button class="btn btn--dark" type="button">В корзину</button>
-                  <button class="btn btn--ghost" type="button">
-                    Купить в 1 клик
-                  </button>
+                <div class="product-card__body">
+                  <div class="product-card__top">
+                    <h3 class="product-card__title">
+                      <a href="#">Палатка сварщика 2,5х2,5м</a>
+                    </h3>
+                    <div class="product-card__rating" aria-label="Рейтинг 5 из 5">
+                      <span>★★★★★</span>
+                    </div>
+                    <p class="product-card__sku">Артикул: 231589</p>
+                  </div>
+                  <div class="product-card__price">36 500 ₽</div>
+                  <div class="product-card__actions">
+                    <button class="btn btn--dark" type="button">В корзину</button>
+                    <button class="btn btn--ghost" type="button">Купить в 1 клик</button>
+                  </div>
                 </div>
               </article>
 
-              <!-- CARD 2 -->
               <article class="product-card">
                 <a class="product-card__img" href="#">
-                  <img
-                    src="./img/image.svg"
-                    alt="Палатка сварщика 2,5х2,5м"
-                    loading="lazy"
-                  />
+                  <img src="./img/image.svg" alt="Палатка сварщика 3х3м" loading="lazy" />
                 </a>
-
-                <h3 class="product-card__title">
-                  <a href="#">Палатка сварщика 2,5х2,5м</a>
-                </h3>
-
-                <div class="product-card__price">36 500 ₽</div>
-
-                <div class="product-card__actions">
-                  <button class="btn btn--dark" type="button">В корзину</button>
-                  <button class="btn btn--ghost" type="button">
-                    Купить в 1 клик
-                  </button>
+                <div class="product-card__body">
+                  <div class="product-card__top">
+                    <h3 class="product-card__title"><a href="#">Палатка сварщика 3х3м</a></h3>
+                    <div class="product-card__rating" aria-label="Рейтинг 4 из 5">
+                      <span>★★★★☆</span>
+                    </div>
+                    <p class="product-card__sku">Артикул: 452771</p>
+                  </div>
+                  <div class="product-card__price">42 900 ₽</div>
+                  <div class="product-card__actions">
+                    <button class="btn btn--dark" type="button">В корзину</button>
+                    <button class="btn btn--ghost" type="button">Купить в 1 клик</button>
+                  </div>
                 </div>
               </article>
 
-              <!-- CARD 3 -->
               <article class="product-card">
                 <a class="product-card__img" href="#">
-                  <img
-                    src="./img/image.svg"
-                    alt="Палатка сварщика 2,5х2,5м"
-                    loading="lazy"
-                  />
+                  <img src="./img/image.svg" alt="Палатка сварщика 4х4м" loading="lazy" />
                 </a>
-
-                <h3 class="product-card__title">
-                  <a href="#">Палатка сварщика 2,5х2,5м</a>
-                </h3>
-
-                <div class="product-card__price">36 500 ₽</div>
-
-                <div class="product-card__actions">
-                  <button class="btn btn--dark" type="button">В корзину</button>
-                  <button class="btn btn--ghost" type="button">
-                    Купить в 1 клик
-                  </button>
-                </div>
-              </article>
-
-              <!-- CARD 4 -->
-              <article class="product-card">
-                <a class="product-card__img" href="#">
-                  <img
-                    src="./img/image.svg"
-                    alt="Палатка сварщика 2,5х2,5м"
-                    loading="lazy"
-                  />
-                </a>
-
-                <h3 class="product-card__title">
-                  <a href="#">Палатка сварщика 2,5х2,5м</a>
-                </h3>
-
-                <div class="product-card__price">36 500 ₽</div>
-
-                <div class="product-card__actions">
-                  <button class="btn btn--dark" type="button">В корзину</button>
-                  <button class="btn btn--ghost" type="button">
-                    Купить в 1 клик
-                  </button>
+                <div class="product-card__body">
+                  <div class="product-card__top">
+                    <h3 class="product-card__title"><a href="#">Палатка сварщика 4х4м</a></h3>
+                    <div class="product-card__rating" aria-label="Рейтинг 5 из 5">
+                      <span>★★★★★</span>
+                    </div>
+                    <p class="product-card__sku">Артикул: 652120</p>
+                  </div>
+                  <div class="product-card__price">56 300 ₽</div>
+                  <div class="product-card__actions">
+                    <button class="btn btn--dark" type="button">В корзину</button>
+                    <button class="btn btn--ghost" type="button">Купить в 1 клик</button>
+                  </div>
                 </div>
               </article>
             </div>
           </section>
         </article>
 
-        <!-- SIDEBAR -->
         <aside class="sidebar" aria-label="Сайдбар статьи">
           <div class="sidebar__inner">
-            <!-- 1) Заявка на скидку (ПЕРВАЯ) -->
             <section class="discount-card" aria-label="Заявка на скидку">
               <h3 class="discount-card__title">
                 Оставьте заявку сейчас<br />
                 и получите скидку!
               </h3>
-
               <p class="discount-card__subtitle">
                 Сделаем скидку 5% на любой товар<br />
                 из нашего каталога.
               </p>
-
               <form class="discount-form" action="#" method="post">
                 <input
                   class="discount-input"
@@ -772,63 +692,68 @@
                   placeholder="Телефон"
                   required
                 />
-
                 <label class="discount-check">
-                  <input
-                    class="discount-check__input"
-                    type="checkbox"
-                    required
-                  />
+                  <input class="discount-check__input" type="checkbox" required />
                   <span class="discount-check__box" aria-hidden="true"></span>
-
                   <span class="discount-check__text">
                     Я согласен
-                    <a class="discount-link" href="#"
-                      >на обработку персональных данных</a
-                    >
+                    <a class="discount-link" href="#">на обработку персональных данных</a>
                     и принимаю условия
-                    <a class="discount-link" href="#"
-                      >Политики конфиденциальности</a
-                    >.
+                    <a class="discount-link" href="#">Политики конфиденциальности</a>.
                   </span>
                 </label>
-
-                <button class="discount-btn" type="submit">
-                  Заказать обратный звонок
-                </button>
+                <button class="discount-btn" type="submit">Заказать обратный звонок</button>
               </form>
             </section>
 
-            <!-- 2) Баннеры (ПОСЛЕ формы) -->
             <a class="sb-banner" href="#" aria-label="Баннер 1">
-              <img
-                class="sb-banner__img"
-                src="./img/Баннер 1.svg"
-                alt="Баннер 1"
-                loading="lazy"
-              />
+              <img class="sb-banner__img" src="./img/banner-1.png" alt="Баннер 1" loading="lazy" />
             </a>
-
             <a class="sb-banner" href="#" aria-label="Баннер 2">
-              <img
-                class="sb-banner__img"
-                src="./img/Баннер 2.svg"
-                alt="Баннер 2"
-                loading="lazy"
-              />
+              <img class="sb-banner__img" src="./img/banner-2.png" alt="Баннер 2" loading="lazy" />
             </a>
-
             <a class="sb-banner" href="#" aria-label="Баннер 3">
-              <img
-                class="sb-banner__img"
-                src="./img/Баннер 3.png"
-                alt="Баннер 3"
-                loading="lazy"
-              />
+              <img class="sb-banner__img" src="./img/banner-3.png" alt="Баннер 3" loading="lazy" />
             </a>
           </div>
         </aside>
       </div>
     </main>
+
+    <footer class="footer">
+      <div class="footer__wrap">
+        <div class="footer__cols">
+          <div>
+            <h2 class="footer__title">Покупателям</h2>
+            <ul class="footer__list">
+              <li><a href="#">Каталог товаров</a></li>
+              <li><a href="#">Доставка и оплата</a></li>
+              <li><a href="#">Гарантии</a></li>
+              <li><a href="#">Возврат товара</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="footer__title">Компания</h2>
+            <ul class="footer__list">
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Блог</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="footer__title">Контакты</h2>
+            <ul class="footer__list">
+              <li><a href="tel:88002222498">8 800 222-24-98</a></li>
+              <li><a href="mailto:zakaz@tentsib.ru">zakaz@tentsib.ru</a></li>
+              <li>Москва, ул. Примерная, 1</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copy">© 2025 Тентсиб. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
